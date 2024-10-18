@@ -1,0 +1,58 @@
+body {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url('https://i.pinimg.com/originals/8e/b9/8e/8eb98e69e6f8b5ec1fdac9eb0f01e5aa.jpg'); /* Add a sweet background */
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .container {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.8); /* Slight transparency to the background */
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    color: #ff69b4; /* A sweet pink color */
+  }
+  
+  .buttons {
+    margin-top: 20px;
+  }
+  
+  button {
+    padding: 12px 25px;
+    font-size: 18px;
+    margin: 10px;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    transition: transform 0.2s ease;
+  }
+  
+  #yesButton {
+    background-color: #ff6f91;
+    color: white;
+  }
+  
+  #noButton {
+    background-color: #ffa500;
+    color: white;
+  }
+  
+  #yesButton:hover, #noButton:hover {
+    transform: scale(1.1);
+  }
+  
+  #response {
+    margin-top: 20px;
+    font-size: 22px;
+    color: #ff1493; /* A sweet deep pink */
+  }
+  
